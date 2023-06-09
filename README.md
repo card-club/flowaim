@@ -1,4 +1,4 @@
-# Flowaim - Opiniated SxT CLI setup tool
+# Flowaim - Opinionated SxT CLI setup tool
 
 When trying to scaffold/setup your cryptographic verified analytics pipeline with SxT this tool is probably for you.
 
