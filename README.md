@@ -2,12 +2,24 @@
 
 When trying to scaffold/setup your cryptographic verified analytics pipeline with SxT this tool is probably for you.
 
-Currently has 4 commands:
+## CLI help 
+```
+Easily setup and load fake data in your SxT cryptographically verified analytics pipeline
 
-- Setup
-- Load
-- Stats
-- Destroy 
+Usage: flowaim [OPTIONS] <COMMAND>
+
+Commands:
+  setup    Setup schema and tables for test/production environments
+  load     Load data into tables
+  stats    Show stats
+  destroy  Destroy schema
+  help     Print this message or the help of the given subcommand(s)
+
+Options:
+  -d, --debug...  Turn debugging information on
+  -h, --help      Print help
+  -V, --version   Print version
+```
 
 ## Setup
 
