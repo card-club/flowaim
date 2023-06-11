@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 biscuit-auth = "3.1.0"
+chrono = "0.4.26"
 clap = { version = "4.3.0", features = ["derive"] }
 config = "0.13.3"
 console = "0.15.7"
@@ -15,5 +16,9 @@ dialoguer = "0.10.4"
 ed25519-dalek = "1.0.1"
 hex = "0.4.3"
 indicatif = "0.17.3"
+rand = "0.8.5"
 serde = { version = "1.0.163", features = ["derive"] }
+serde_json = "1.0.96"
+tabled = "0.12.1"
+toml = "0.7.4"
 ureq = { version = "2.6.2", features = ["json"] }

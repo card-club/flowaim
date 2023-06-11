@@ -2,8 +2,9 @@ use std::fs::OpenOptions;
 use std::io::{BufRead, BufReader, Write};
 use std::path::Path;
 
-
-pub fn add_flowaim_config_filename_if_needed(flowaim_config_filename: &str) -> Result<(), std::io::Error> {
+pub fn add_flowaim_config_filename_if_needed(
+    flowaim_config_filename: &str,
+) -> Result<(), std::io::Error> {
     let gitignore_path = Path::new(".gitignore");
 
     let mut lines = if gitignore_path.exists() {
