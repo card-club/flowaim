@@ -43,9 +43,9 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Commands {
-    /// Setup schema and tables for test/production environemnts
+    /// Setup schema and tables for test/production environments
     Setup {},
-    /// Load data into tables
+    /// Load dummy data into tables
     Load {
         #[arg(short, long)]
         env: String,
